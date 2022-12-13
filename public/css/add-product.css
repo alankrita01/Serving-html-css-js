@@ -1,0 +1,98 @@
+body{
+  padding: 0;
+  margin: 0;
+  font-family: sans-serif;
+}
+
+main{
+  padding: 1rem;
+}
+.main-header {
+  width:100%;
+  height: 3.5rem;
+  background-color: rgb(235, 208, 208);
+}
+
+.main-header_nav {
+  height: 100%;
+  display: flex;
+  align-items: center;
+  margin: 0;
+  padding: 0 1.5rem;
+}
+
+.main-header_item-list {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  display: flex;
+}
+
+.main-header_item {
+  margin: 0 1rem;
+  padding: 0;
+}
+
+.main-header_item a{
+  text-decoration: none;
+  color: black;
+  font-weight: bold;
+}
+
+.main-header_item a:hover,
+.main-header_item a:active,
+.main-header_item a:active{
+  color: rgb(147, 114, 147);
+}
+
+/*form css*/
+
+.container{
+  margin: 20px 400px;
+padding: 10px 3rem ;
+border: 2px groove #8D4946;
+border-radius: 20px;
+font-family: sans-serif;
+
+}
+
+.product-form {
+  width: 20rem;
+  max-width: 90%;
+  margin: auto;
+}
+
+.form-control{
+  margin: 1rem 0;
+}
+
+.form-control label,
+.form-control input{
+  display: block;
+  width: 100%;
+}
+
+.form-control input{
+  border: 1px solid gray;
+  font: inherit;
+  border-radius: 2px;
+
+}
+
+button{
+  display: block;
+  width: 100%;
+  font: inherit;
+  border: 2px groove #8D4946;
+  border-radius: 5px;
+  background-color: #8D4946;
+  color: white;
+  cursor: pointer;
+}
+
+button:hover,
+button:active {
+  background-color: white;
+  color: #8D4946;
+  font-weight: bold;
+}
